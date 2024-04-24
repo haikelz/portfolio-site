@@ -1,6 +1,14 @@
 <div align="center">
-  <h1></h1>
+  <h1>Portfolio Site</h1>
+  <p>Simple Portfolio Website with Dark Mode</p>
 </div>
+
+## Tech Stack
+
+- React JS
+- Typescript
+- Tailwind CSS with shadcn/ui
+- Docker
 
 ## About
 
@@ -10,6 +18,6 @@
 
 ## Getting Started
 
-- Clone
-- Type `pnpm install`
-- `pnpm run dev`
+- Clone this project.
+- Install all needed dependencies with `pnpm install`.
+- Type `pnpm run dev` and see the result in `http://localhost:3000`.
