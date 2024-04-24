@@ -41,19 +41,17 @@ export default function Home() {
         <Heading as="h1">Skills</Heading>
         <div className="space-y-1">
           <Paragraph>
-            <b>Programming Languages: </b>HTML, CSS, SCSS, Javascript,
-            Typescript.
+            <b>Programming Languages: </b>Javascript, Typescript.
           </Paragraph>
           <Paragraph>
             <b>Frontend:</b> React JS, Next JS, Vue JS, Nuxt JS, Tailwind CSS,
             Uno CSS.
           </Paragraph>
           <Paragraph>
-            <b>Backend:</b> Express JS, Fastify, Nest JS, Hono JS.
+            <b>Backend:</b> Express JS, Nest JS, Hono JS.
           </Paragraph>
           <Paragraph>
-            <b>Others:</b> Docker, Github Actions, GraphQL, tRPC, Linux,
-            Business Analysis, Market Research.
+            <b>Others:</b> Docker, Github Actions, GraphQL, tRPC.
           </Paragraph>
         </div>
       </div>

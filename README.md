@@ -3,13 +3,6 @@
   <p>Simple Portfolio Website with Dark Mode</p>
 </div>
 
-## Tech Stack
-
-- React JS
-- Typescript
-- Tailwind CSS with shadcn/ui
-- Docker
-
 ## About
 
 - Name: Haikel Ilham Hakim

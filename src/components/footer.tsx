@@ -10,11 +10,11 @@ import { Paragraph } from "./ui/typography";
 export default function Footer() {
   return (
     <footer className="w-full flex justify-center items-center p-4">
-      <div className="w-full max-w-xl flex justify-center items-center flex-col">
+      <div className="w-full max-w-xl flex justify-between items-center">
         <Paragraph className="font-bold text-sm">
-          Copyright 2024 Haikel Ilham Hakim
+          ©2024 Haikel Ilham Hakim
         </Paragraph>
-        <div className="space-x-4 flex justify-center mt-3 items-center">
+        <div className="space-x-4 flex justify-center items-center">
           <Link to="https://github.com/haikelz" target="_blank">
             <GithubIcon size={20} />
           </Link>
