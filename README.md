@@ -9,6 +9,11 @@
 - Program: Web Development & UI/UX Design
 - Class: Web B Morning
 
+## Link
+
+- [Website](https://ekel.pages.dev/)
+- [Repository](https://github.com/haikelz/portfolio-site)
+
 ## Getting Started
 
 - Clone this project.
