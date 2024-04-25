@@ -1,6 +1,6 @@
 import Layout from "@/components/layout";
 import { Button } from "@/components/ui/button";
-import Image from "@/components/ui/image";
+import LightboxImage from "@/components/ui/lightbox-image";
 import { Heading, Paragraph } from "@/components/ui/typography";
 import { useTitle } from "@/hooks";
 import { photosList, worksList } from "@/lib/utils/data";
@@ -14,7 +14,14 @@ export default function Home() {
   return (
     <Layout>
       <div className="space-y-6 pattern">
-        <Heading as="h1">こんにちは !</Heading>
+        <div className="flex justify-center items-center space-x-3 w-fit">
+          <LightboxImage
+            src="https://avatars.githubusercontent.com/u/77146709?v=4"
+            alt="Github Profile Picture"
+            className="rounded-full w-11 h-11"
+          />
+          <Heading as="h1">こんにちは !</Heading>
+        </div>
         <Paragraph>
           I'm a <b>Software Engineer(Frontend)</b> with 2+ years of experience
           crafting responsive, interactive, maintainable, and accessible
@@ -44,14 +51,18 @@ export default function Home() {
             <b>Programming Languages: </b>Javascript, Typescript.
           </Paragraph>
           <Paragraph>
-            <b>Frontend:</b> React JS, Next JS, Vue JS, Nuxt JS, Tailwind CSS,
-            Uno CSS.
+            <b>Frontend:</b> React JS, Next JS, Vue JS, Nuxt JS, SCSS, Tailwind
+            CSS, Uno CSS.
           </Paragraph>
           <Paragraph>
             <b>Backend:</b> Express JS, Nest JS, Hono JS.
           </Paragraph>
           <Paragraph>
-            <b>Others:</b> Docker, Github Actions, GraphQL, tRPC.
+            <b>Tools:</b> Visual Studio Code, Figma, Postman, Neovim, Linux.
+          </Paragraph>
+          <Paragraph>
+            <b>Others:</b> Docker, Github Actions, GraphQL, tRPC, Firebase,
+            Supabase.
           </Paragraph>
         </div>
       </div>
@@ -100,7 +111,7 @@ export default function Home() {
           <Heading as="h1">Featured Photos</Heading>
           <div className="grid grid-cols-1 sm:grid-cols-2 grid-rows-1 sm:grid-rows-2 mt-6 gap-4">
             {photosList.slice(0, 4).map((item) => (
-              <Image
+              <LightboxImage
                 key={item.id}
                 src={`/images/photos/${item.id}.png`}
                 alt={item.name}

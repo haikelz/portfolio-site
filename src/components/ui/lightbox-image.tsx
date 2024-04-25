@@ -1,6 +1,8 @@
+import { cn } from "@/lib/utils/cn";
 import { DetailedHTMLProps, useState } from "react";
 import Lightbox from "yet-another-react-lightbox";
 import { Captions } from "yet-another-react-lightbox/plugins";
+import "yet-another-react-lightbox/plugins/captions.css";
 import "yet-another-react-lightbox/styles.css";
 
 type ImageProps = DetailedHTMLProps<
@@ -8,14 +10,19 @@ type ImageProps = DetailedHTMLProps<
   HTMLImageElement
 >;
 
-export default function Image({ src, alt, className, ...props }: ImageProps) {
+export default function LightboxImage({
+  src,
+  alt,
+  className,
+  ...props
+}: ImageProps) {
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const [imgSource, setImgSource] = useState<string>(src as string);
 
   return (
     <>
       <img
-        className={className}
+        className={cn(className)}
         src={imgSource}
         alt={alt}
         onError={() => setImgSource("/images/placeholder.svg")}
