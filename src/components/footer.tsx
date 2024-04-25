@@ -12,11 +12,11 @@ export default function Footer() {
 
   return (
     <footer className="w-full flex justify-center items-center p-4">
-      <div className="w-full max-w-xl flex justify-between items-center">
+      <div className="w-full max-w-xl flex justify-center sm:justify-between flex-col sm:flex-row items-center">
         <Paragraph className="font-bold text-sm">
           ©{date.getFullYear()} Haikel Ilham Hakim
         </Paragraph>
-        <div className="space-x-4 flex justify-center items-center">
+        <div className="space-x-4 mt-4 sm:mt-0 flex justify-center items-center">
           <Link to="https://github.com/haikelz" target="_blank">
             <GithubIcon size={20} />
           </Link>

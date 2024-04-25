@@ -42,7 +42,6 @@ export default function LightboxImage({
                 alt={alt}
                 src={src}
                 loading="eager"
-                fetchPriority="high"
                 draggable={false}
                 width={700}
                 height={700}

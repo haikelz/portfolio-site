@@ -27,7 +27,8 @@ export default function Home() {
           crafting responsive, interactive, maintainable, and accessible
           Websites. Interested in Frontend world, User Interfaces/Experiences,
           and DevOps/Infrastructure. I am a detail-oriented person, and quickly
-          adapted with new environment.{" "}
+          adapt to new environments.
+          <br />
           <b>
             <i>Keep it simple</i>
           </b>
@@ -62,7 +63,7 @@ export default function Home() {
           </Paragraph>
           <Paragraph>
             <b>Others:</b> Docker, Github Actions, GraphQL, tRPC, Firebase,
-            Supabase.
+            Supabase, Prisma, Drizzle.
           </Paragraph>
         </div>
       </div>
