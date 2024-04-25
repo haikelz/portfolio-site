@@ -1,4 +1,6 @@
-export const stack = [
+import { RoutesProps, StackProps, WorksProps } from "@/types";
+
+export const stack: StackProps[] = [
   {
     id: 1,
     name: "Javascript",
@@ -76,7 +78,7 @@ export const photosList = [
   },
 ];
 
-export const worksList = [
+export const worksList: WorksProps[] = [
   {
     id: 1,
     thumbnail:
@@ -174,7 +176,7 @@ export const worksList = [
   },
 ];
 
-export const routesList = [
+export const routesList: RoutesProps[] = [
   {
     id: 1,
     name: "/works",
