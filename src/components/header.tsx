@@ -1,7 +1,9 @@
+import { cn } from "@/lib/utils/cn";
+import { routesList } from "@/lib/utils/data";
 import { Link, useLocation } from "react-router-dom";
 import DarkMode from "./dark-mode";
+import Menu from "./menu";
 import { Paragraph } from "./ui/typography";
-import { cn } from "@/lib/utils/cn";
 
 export default function Header() {
   const location = useLocation();
@@ -18,28 +20,23 @@ export default function Header() {
           <Paragraph className="font-bold">ekel.dev</Paragraph>
         </Link>
         <div className="flex justify-center items-center space-x-5">
-          <Link
-            to="/works"
-            className={cn(
-              "hover:underline hover:underline-offset-2",
-              location.pathname === "/works"
-                ? "underline underline-offset-2"
-                : ""
-            )}
-          >
-            <Paragraph className="font-semibold">/works</Paragraph>
-          </Link>
-          <Link
-            to="/photos"
-            className={cn(
-              "hover:underline hover:underline-offset-2",
-              location.pathname === "/photos"
-                ? "underline underline-offset-2"
-                : ""
-            )}
-          >
-            <Paragraph className="font-semibold">/photos</Paragraph>
-          </Link>
+          <div className="justify-center hidden sm:flex items-center space-x-5">
+            {routesList.map((item) => (
+              <Link
+                key={item.id}
+                to={item.name}
+                className={cn(
+                  "hover:underline hover:underline-offset-2",
+                  location.pathname === item.name
+                    ? "underline underline-offset-2"
+                    : ""
+                )}
+              >
+                <Paragraph className="font-semibold">{item.name}</Paragraph>
+              </Link>
+            ))}
+          </div>
+          <Menu />
           <DarkMode />
         </div>
       </nav>

@@ -174,3 +174,14 @@ export const worksList = [
       "A Website to get prayer schedule, read Al-Qur'an, and Asma'ul Husna",
   },
 ];
+
+export const routesList = [
+  {
+    id: 1,
+    name: "/works",
+  },
+  {
+    id: 2,
+    name: "/photos",
+  },
+];

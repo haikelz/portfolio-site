@@ -13,7 +13,7 @@ export default function Home() {
 
   return (
     <Layout>
-      <div className="space-y-6">
+      <div className="space-y-6 pattern">
         <Heading as="h1">こんにちは !</Heading>
         <Paragraph>
           I'm a <b>Software Engineer(Frontend)</b> with 2+ years of experience

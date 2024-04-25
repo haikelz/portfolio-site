@@ -8,11 +8,13 @@ import { Link } from "react-router-dom";
 import { Paragraph } from "./ui/typography";
 
 export default function Footer() {
+  const date = new Date();
+
   return (
     <footer className="w-full flex justify-center items-center p-4">
       <div className="w-full max-w-xl flex justify-between items-center">
         <Paragraph className="font-bold text-sm">
-          ©2024 Haikel Ilham Hakim
+          ©{date.getFullYear()} Haikel Ilham Hakim
         </Paragraph>
         <div className="space-x-4 flex justify-center items-center">
           <Link to="https://github.com/haikelz" target="_blank">

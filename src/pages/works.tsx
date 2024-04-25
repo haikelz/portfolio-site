@@ -5,7 +5,7 @@ import { worksList } from "@/lib/utils/data";
 import { Link } from "react-router-dom";
 
 export default function Works() {
-  useTitle("Works  - Haikel");
+  useTitle("Works - Haikel");
 
   return (
     <Layout>

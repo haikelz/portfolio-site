@@ -10,6 +10,10 @@
     sans-serif;
 }
 
+.pattern {
+  @apply w-full h-full bg-cover bg-center bg-repeat bg-pattern-light dark:bg-pattern-dark;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
