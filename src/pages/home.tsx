@@ -18,7 +18,7 @@ export default function Home() {
           <LightboxImage
             src="https://avatars.githubusercontent.com/u/77146709?v=4"
             alt="Github Profile Picture"
-            className="rounded-full w-11 h-11"
+            className="rounded-full w-11 cursor-pointer h-11"
           />
           <Heading as="h1">こんにちは !</Heading>
         </div>
