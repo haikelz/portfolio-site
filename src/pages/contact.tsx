@@ -74,7 +74,9 @@ export default function Contact() {
               required
             />
           </div>
-          <Button type="submit">Submit!</Button>
+          <Button type="submit" className="font-bold">
+            Submit!
+          </Button>
         </form>
       </Layout>
       {isSuccessSendmessage ? (

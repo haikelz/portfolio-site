@@ -23,10 +23,10 @@ export default function Home() {
           <Heading as="h1">こんにちは !</Heading>
         </div>
         <Paragraph>
-          I'm a <b>Software Engineer(Frontend)</b> with 2+ years of experience
+          I am a <b>Software Engineer(Frontend)</b> with 2+ years of experience
           crafting responsive, interactive, maintainable, and accessible
           Websites. Interested in Frontend world, User Interfaces/Experiences,
-          and DevOps/Infrastructure. I'm a detail-oriented person, and quickly
+          and DevOps/Infrastructure. I am a detail-oriented person, and quickly
           adapted with new environment.{" "}
           <b>
             <i>Keep it simple</i>
