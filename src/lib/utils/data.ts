@@ -96,8 +96,7 @@ export const worksList: WorksProps[] = [
     name: "Asma'ul Husna API",
     github: "https://github.com/haikelz/asmaul-husna-api",
     preview: "https://asmaul-husna-api.vercel.app",
-    description:
-      "A Website to get prayer schedule, read Al-Qur'an, and Asma'ul Husna",
+    description: "Asmaul Husna API is an API to get the list of Asma'ul Husna",
   },
   {
     id: 3,
@@ -105,7 +104,7 @@ export const worksList: WorksProps[] = [
       "https://ik.imagekit.io/haikelz/works/money-management/og-money-management.png?updatedAt=1713940308942",
     name: "Money Management",
     github: "https://github.com/haikelz/money-management",
-    preview: "https://money-management-123.vercel.app/auth/sign-in",
+    preview: "https://money-management-123.vercel.app",
     description:
       "Money Management is a Web Application to manage your income and expenses",
   },
@@ -114,7 +113,7 @@ export const worksList: WorksProps[] = [
     thumbnail:
       "https://ik.imagekit.io/haikelz/works/cari-mahasiswa.png?updatedAt=1694166950937",
     name: "Cari Mahasiswa",
-    github: "https://github.com/haikelz/jadwal-sholat",
+    github: "https://github.com/haikelz/cari-mahasiswa",
     preview: "https://info-jadwal-sholat.vercel.app",
     description:
       "👨‍🎓 Cari Mahasiswa adalah sebuah Website untuk mencari data Mahasiswa dari berbagai perguruan tinggi",
@@ -184,5 +183,9 @@ export const routesList: RoutesProps[] = [
   {
     id: 2,
     name: "/photos",
+  },
+  {
+    id: 3,
+    name: "/contact",
   },
 ];

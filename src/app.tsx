@@ -1,5 +1,3 @@
-import { AnimatePresence, LazyMotion, domAnimation } from "framer-motion";
-import { Route, Routes, useLocation } from "react-router-dom";
 import BackToTop from "@/components/back-to-top";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
@@ -9,6 +7,9 @@ import Home from "@/pages/home";
 import NotFound from "@/pages/not-found";
 import Photos from "@/pages/photos";
 import Works from "@/pages/works";
+import { AnimatePresence, LazyMotion, domAnimation } from "framer-motion";
+import { Route, Routes, useLocation } from "react-router-dom";
+import Contact from "./pages/contact";
 
 export default function App() {
   const location = useLocation();
@@ -24,6 +25,7 @@ export default function App() {
               <Route path="/" element={<Home />} />
               <Route path="/photos" element={<Photos />} />
               <Route path="/works" element={<Works />} />
+              <Route path="/contact" element={<Contact />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </AnimatePresence>
