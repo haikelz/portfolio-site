@@ -166,12 +166,11 @@ export const worksList = [
   {
     id: 10,
     thumbnail:
-      "https://ik.imagekit.io/haikelz/works/jadwal-sholat/jadwal-sholat.png?updatedAt=1691495653131",
-    name: "Jadwal Sholat",
-    github: "https://github.com/haikelz/jadwal-sholat",
-    preview: "https://info-jadwal-sholat.vercel.app",
-    description:
-      "A Website to get prayer schedule, read Al-Qur'an, and Asma'ul Husna",
+      "https://ik.imagekit.io/haikelz/works/getstatic/getstatic.png?updatedAt=1691495629214",
+    name: "Get Static",
+    github: "https://github.com/haikelz/getstatic",
+    preview: "https://getstatic.pages.dev/",
+    description: "Slicing UI Design Getstatic. Design by mas Andre Rio",
   },
 ];
 
