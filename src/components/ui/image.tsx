@@ -10,7 +10,7 @@ type ImageProps = DetailedHTMLProps<
 
 export default function Image({ src, alt, className, ...props }: ImageProps) {
   const [isOpen, setIsOpen] = useState<boolean>(false);
-  const [imgSource, setImgSource] = useState(src);
+  const [imgSource, setImgSource] = useState<string>(src as string);
 
   return (
     <>
@@ -18,7 +18,7 @@ export default function Image({ src, alt, className, ...props }: ImageProps) {
         className={className}
         src={imgSource}
         alt={alt}
-        onError={() => setImgSource("")}
+        onError={() => setImgSource("/images/placeholder.svg")}
         draggable={false}
         {...props}
         onClick={() => setIsOpen(true)}

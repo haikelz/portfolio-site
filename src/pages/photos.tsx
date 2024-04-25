@@ -3,8 +3,6 @@ import Image from "@/components/ui/image";
 import { Heading } from "@/components/ui/typography";
 import { useTitle } from "@/hooks";
 import { photosList } from "@/lib/utils/data";
-import "yet-another-react-lightbox/plugins/captions.css";
-import "yet-another-react-lightbox/styles.css";
 
 export default function Photos() {
   useTitle("Photos - Haikel");
