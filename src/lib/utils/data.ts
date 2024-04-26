@@ -167,11 +167,74 @@ export const worksList: WorksProps[] = [
   {
     id: 10,
     thumbnail:
+      "https://ik.imagekit.io/haikelz/works/slicing/slicing.png?updatedAt=1691495559233",
+    name: "Slicing",
+    github: "https://github.com/haikelz/slicing",
+    preview: "https://slicing-haikelz.netlify.app/",
+    description: "My Result for one day one slicing",
+  },
+  {
+    id: 11,
+    thumbnail:
       "https://ik.imagekit.io/haikelz/works/getstatic/getstatic.png?updatedAt=1691495629214",
     name: "Get Static",
     github: "https://github.com/haikelz/getstatic",
     preview: "https://getstatic.pages.dev/",
     description: "Slicing UI Design Getstatic. Design by mas Andre Rio",
+  },
+  {
+    id: 12,
+    thumbnail:
+      "https://ik.imagekit.io/haikelz/works/studio-ghibli-resources.png?updatedAt=1686411886181",
+    name: "Studio Ghibli Resources",
+    github: "https://github.com/haikelz/studio-ghibli-resources/",
+    preview: "https://studio-ghibli-resources.netlify.app/",
+    description: "Website and Mobile App for Studio Ghibli Resources",
+  },
+  {
+    id: 13,
+    thumbnail:
+      "https://ik.imagekit.io/haikelz/works/agendain/ss1.png?updatedAt=1691490488894",
+    name: "Agendain",
+    github: "https://github.com/haikelz/agendain",
+    preview: "https://agendain.pages.dev/",
+    description: "Manage your agenda with Agendain!",
+  },
+  {
+    id: 14,
+    thumbnail:
+      "https://ik.imagekit.io/haikelz/works/the-zeitplan/the-zeitplan.png?updatedAt=1691495475218",
+    name: "Agendain",
+    github: "https://github.com/haikelz/the-zeitplan",
+    preview: "https://the-zeitplan.pages.dev/",
+    description: "Slicing UI Design The Zeitplan. Design by mas Nauval",
+  },
+  {
+    id: 15,
+    thumbnail:
+      "https://ik.imagekit.io/haikelz/works/chat-n-rechat/Screenshot-2.png?updatedAt=1691490651241",
+    name: "Chat n' rechat",
+    github: "https://github.com/haikelz/chat-n-rechat",
+    preview: "https://chat-n-rechat-seven.vercel.app/",
+    description: "Slicing UI Design Chat n' rechat. Design by mas Nauval",
+  },
+  {
+    id: 16,
+    thumbnail:
+      "https://ik.imagekit.io/haikelz/works/it-group/it-group.png?updatedAt=1691495501386",
+    name: "IT Group",
+    github: "https://github.com/haikelz/it-group",
+    preview: "https://it-group.vercel.app/",
+    description: "Whatsapp IT Group Profile Website",
+  },
+  {
+    id: 17,
+    thumbnail:
+      "https://ik.imagekit.io/haikelz/works/the-sugiharto.png?updatedAt=1673863931565",
+    name: "The Sugiharto",
+    github: "https://github.com/haikelz/the-sugiharto",
+    preview: "https://the-sugiharto.vercel.app/",
+    description: "Slicing UI Design The Sugiharto. Design by mas Nauval",
   },
 ];
 

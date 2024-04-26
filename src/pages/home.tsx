@@ -76,7 +76,7 @@ export default function Home() {
                 key={item.id}
                 className="drop-shadow-md bg-white dark:bg-neutral-900"
               >
-                <img
+                <LightboxImage
                   src={item.thumbnail}
                   alt={item.name}
                   loading="lazy"

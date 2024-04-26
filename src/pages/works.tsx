@@ -1,4 +1,5 @@
 import Layout from "@/components/layout";
+import LightboxImage from "@/components/ui/lightbox-image";
 import { Heading, Paragraph } from "@/components/ui/typography";
 import { useTitle } from "@/hooks";
 import { worksList } from "@/lib/utils/data";
@@ -16,7 +17,7 @@ export default function Works() {
             key={item.id}
             className="drop-shadow-md bg-white dark:bg-neutral-900"
           >
-            <img
+            <LightboxImage
               src={item.thumbnail}
               alt={item.name}
               loading="lazy"
